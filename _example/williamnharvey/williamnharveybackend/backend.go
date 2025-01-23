@@ -8,7 +8,7 @@ import (
 
 type InteractableBackend struct{}
 
-func (b InteractableBackend) DoSomethingWithInterfaceStruct(ctx context.Context, interfaceStruct *williamnharveyfrontend.InterfaceStruct) error {
+func (b InteractableBackend) DoSomethingWithInterfaceStruct(ctx context.Context, interfaceStruct *williamnharveyfrontend.InterfaceStruct) (*williamnharveyfrontend.InterfaceStruct, error) {
 	interfaceStruct.Name = "Hello, World!"
 
 	return nil

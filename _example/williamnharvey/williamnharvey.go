@@ -8,7 +8,7 @@ import (
 	"github.com/cosmos72/gomacro/_example/williamnharvey/williamnharveyfrontend"
 )
 
-func init() {
+func main() {
 	williamnharveyfrontend.InteractableBackend = williamnharveybackend.InteractableBackend{}
 
 	newStruct := williamnharveyfrontend.InterfaceStruct{}

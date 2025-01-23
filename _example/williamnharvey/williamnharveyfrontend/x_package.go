@@ -48,9 +48,12 @@ func init() {
 		Binds: map[string]r.Value{
 			"DoSomethingWithInterfaceStruct":	r.ValueOf(DoSomethingWithInterfaceStruct),
 			"InteractableBackend":	r.ValueOf(&InteractableBackend).Elem(),
+			"Packages":	r.ValueOf(&Packages).Elem(),
 		}, Types: map[string]r.Type{
 			"Backend":	r.TypeOf((*Backend)(nil)).Elem(),
 			"InterfaceStruct":	r.TypeOf((*InterfaceStruct)(nil)).Elem(),
+			"P__Users_williamnharvey_workspace_gomacro__example_williamnharvey_williamnharveyfrontend_Backend":	r.TypeOf((*P__Users_williamnharvey_workspace_gomacro__example_williamnharvey_williamnharveyfrontend_Backend)(nil)).Elem(),
+			"Package":	r.TypeOf((*Package)(nil)).Elem(),
 		}, Proxies: map[string]r.Type{
 			"Backend":	r.TypeOf((*P__Users_williamnharvey_workspace_gomacro__example_williamnharvey_williamnharveyfrontend_Backend)(nil)).Elem(),
 		}, 
@@ -60,8 +63,8 @@ func init() {
 // --------------- proxy for github.com/cosmos72/gomacro/_example/williamnharvey/williamnharveyfrontend.Backend ---------------
 type P__Users_williamnharvey_workspace_gomacro__example_williamnharvey_williamnharveyfrontend_Backend struct {
 	Object	interface{}
-	DoSomethingWithInterfaceStruct_	func(interface{}, context.Context, *williamnharveyfrontend.InterfaceStruct) error
+	DoSomethingWithInterfaceStruct_	func(interface{}, context.Context, *InterfaceStruct) (*InterfaceStruct, error)
 }
-func (P *P__Users_williamnharvey_workspace_gomacro__example_williamnharvey_williamnharveyfrontend_Backend) DoSomethingWithInterfaceStruct(unnamed0 context.Context, unnamed1 *williamnharveyfrontend.InterfaceStruct) error {
+func (P *P__Users_williamnharvey_workspace_gomacro__example_williamnharvey_williamnharveyfrontend_Backend) DoSomethingWithInterfaceStruct(unnamed0 context.Context, unnamed1 *InterfaceStruct) (*InterfaceStruct, error) {
 	return P.DoSomethingWithInterfaceStruct_(P.Object, unnamed0, unnamed1)
 }
