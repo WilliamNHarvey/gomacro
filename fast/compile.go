@@ -21,11 +21,11 @@ import (
 	"go/token"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/dep"
-	"github.com/cosmos72/gomacro/gls"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/WilliamNHarvey/gomacro/ast2"
+	"github.com/WilliamNHarvey/gomacro/base"
+	"github.com/WilliamNHarvey/gomacro/base/dep"
+	"github.com/WilliamNHarvey/gomacro/gls"
+	xr "github.com/WilliamNHarvey/gomacro/xreflect"
 )
 
 func NewComp(outer *Comp, code *Code) *Comp {

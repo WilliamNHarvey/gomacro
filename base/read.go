@@ -23,8 +23,8 @@ import (
 	"go/token"
 	"io"
 
-	"github.com/cosmos72/gomacro/base/output"
-	etoken "github.com/cosmos72/gomacro/go/etoken"
+	"github.com/WilliamNHarvey/gomacro/base/output"
+	etoken "github.com/WilliamNHarvey/gomacro/go/etoken"
 )
 
 func ReadBytes(src interface{}) []byte {

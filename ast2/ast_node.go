@@ -20,7 +20,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	"github.com/cosmos72/gomacro/go/etoken"
+	"github.com/WilliamNHarvey/gomacro/go/etoken"
 )
 
 func asInterface(x interface{}, isnil bool) interface{} {

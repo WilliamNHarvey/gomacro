@@ -17,7 +17,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/cosmos72/gomacro/go/etoken"
+	"github.com/WilliamNHarvey/gomacro/go/etoken"
 )
 
 // An ErrorHandler may be provided to Scanner.Init. If a syntax error is

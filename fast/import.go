@@ -24,13 +24,13 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/genimport"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/paths"
-	"github.com/cosmos72/gomacro/base/reflect"
-	"github.com/cosmos72/gomacro/base/untyped"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/WilliamNHarvey/gomacro/base"
+	"github.com/WilliamNHarvey/gomacro/base/genimport"
+	"github.com/WilliamNHarvey/gomacro/base/output"
+	"github.com/WilliamNHarvey/gomacro/base/paths"
+	"github.com/WilliamNHarvey/gomacro/base/reflect"
+	"github.com/WilliamNHarvey/gomacro/base/untyped"
+	xr "github.com/WilliamNHarvey/gomacro/xreflect"
 )
 
 type PackageName = genimport.PackageName

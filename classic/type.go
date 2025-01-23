@@ -21,10 +21,10 @@ import (
 	"go/ast"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/genimport"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/reflect"
+	. "github.com/WilliamNHarvey/gomacro/base"
+	"github.com/WilliamNHarvey/gomacro/base/genimport"
+	"github.com/WilliamNHarvey/gomacro/base/output"
+	"github.com/WilliamNHarvey/gomacro/base/reflect"
 )
 
 func typeOf(value r.Value) r.Type {

@@ -24,11 +24,11 @@ import (
 	"os"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/paths"
-	"github.com/cosmos72/gomacro/gls"
-	"github.com/cosmos72/gomacro/go/types"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/WilliamNHarvey/gomacro/base"
+	"github.com/WilliamNHarvey/gomacro/base/paths"
+	"github.com/WilliamNHarvey/gomacro/gls"
+	"github.com/WilliamNHarvey/gomacro/go/types"
+	xr "github.com/WilliamNHarvey/gomacro/xreflect"
 )
 
 // Interp is the fast interpreter.

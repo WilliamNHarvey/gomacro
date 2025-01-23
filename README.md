@@ -52,7 +52,7 @@ Gomacro can be used as:
 	import (
 		"fmt"
 		"reflect"
-		"github.com/cosmos72/gomacro/fast"
+		"github.com/WilliamNHarvey/gomacro/fast"
 	)
 	func RunGomacro(toeval string) reflect.Value {
 		interp := fast.New()
@@ -64,7 +64,7 @@ Gomacro can be used as:
 		fmt.Println(RunGomacro("1+1"))
 	}
 	```
-  Also, [github issue #13](https://github.com/cosmos72/gomacro/issues/13) explains
+  Also, [github issue #13](https://github.com/WilliamNHarvey/gomacro/issues/13) explains
   how to have your application's functions, variable, constants and types
   available in the interpreter.
 
@@ -93,7 +93,7 @@ Gomacro can be used as:
   and call any other function or library: they can even read and write files,
   open network connections, etc... as a normal Go function can do.
 
-  See [doc/code_generation.pdf](https://github.com/cosmos72/gomacro/blob/master/doc/code_generation.pdf)
+  See [doc/code_generation.pdf](https://github.com/WilliamNHarvey/gomacro/blob/master/doc/code_generation.pdf)
   for an introduction to the topic.
 
 ## Installation
@@ -117,7 +117,7 @@ The following combinations are tested and known to work:
 
   The command
   ```
-  go install github.com/cosmos72/gomacro@latest
+  go install github.com/WilliamNHarvey/gomacro@latest
   ```
   downloads, compiles and installs gomacro and its dependencies
 
@@ -151,7 +151,7 @@ Compared to compiled Go, gomacro supports several extensions:
 * an integrated debugger, see [Debugger](#debugger)
 
 * configurable special commands. Type `:help` at REPL to list them,
-  and see [cmd.go:37](https://github.com/cosmos72/gomacro/blob/master/fast/cmd.go#L37)
+  and see [cmd.go:37](https://github.com/WilliamNHarvey/gomacro/blob/master/fast/cmd.go#L37)
   for the documentation and API to define new ones.
 
 * untyped constants can be manipulated directly at REPL. Examples:
@@ -190,7 +190,7 @@ Compared to compiled Go, gomacro supports several extensions:
   returns the zero value of the type
 
 * macros, quoting and quasiquoting: see
-  [doc/code_generation.pdf](https://github.com/cosmos72/gomacro/blob/master/doc/code_generation.pdf)
+  [doc/code_generation.pdf](https://github.com/WilliamNHarvey/gomacro/blob/master/doc/code_generation.pdf)
 
 and slightly relaxed checks:
 
@@ -299,13 +299,13 @@ $ gomacro
 [greeting message...]
 
 gomacro> import "gonum.org/v1/plot"
-// warning: created file "/home/max/go/src/github.com/cosmos72/gomacro/imports/thirdparty/gonum_org_v1_plot.go", recompile gomacro to use it
+// warning: created file "/home/max/go/src/github.com/WilliamNHarvey/gomacro/imports/thirdparty/gonum_org_v1_plot.go", recompile gomacro to use it
 ```
 
 Now quit gomacro, recompile and reinstall it:
 ```
 gomacro> :quit
-$ go install github.com/cosmos72/gomacro
+$ go install github.com/WilliamNHarvey/gomacro
 ```
 
 Finally restart it. Your import is now linked **inside** gomacro and will work:

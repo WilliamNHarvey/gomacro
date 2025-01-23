@@ -17,7 +17,7 @@
 package debug
 
 import (
-	"github.com/cosmos72/gomacro/fast"
+	"github.com/WilliamNHarvey/gomacro/fast"
 )
 
 func (d *Debugger) Backtrace(arg string) DebugOp {

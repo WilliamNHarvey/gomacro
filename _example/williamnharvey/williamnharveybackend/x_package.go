@@ -10,14 +10,14 @@ import (
 
 /**
  * Declare and fill a global variable Packages, whose type is compatible
- * with the global variable github.com/cosmos72/gomacro/imports.Packages
+ * with the global variable github.com/WilliamNHarvey/gomacro/imports.Packages
  *
  * If you want to automatically register this package's declarations into
- *   github.com/cosmos72/gomacro/imports.Packages
+ *   github.com/WilliamNHarvey/gomacro/imports.Packages
  * to let gomacro know about this package, and allow importing it without compiling
  * a plugin, you can add the following to some _other_ file in this directory:
  *
- * import "github.com/cosmos72/gomacro/imports"
+ * import "github.com/WilliamNHarvey/gomacro/imports"
  *
  * func init() {
  *     for k, v := range Packages {
@@ -40,9 +40,9 @@ type Package = struct {
 
 var Packages = make(map[string]Package)
 
-// reflection: allow interpreted code to import "github.com/cosmos72/gomacro/_example/williamnharvey/williamnharveybackend"
+// reflection: allow interpreted code to import "github.com/WilliamNHarvey/gomacro/_example/williamnharvey/williamnharveybackend"
 func init() {
-	Packages["github.com/cosmos72/gomacro/_example/williamnharvey/williamnharveybackend"] = Package{
+	Packages["github.com/WilliamNHarvey/gomacro/_example/williamnharvey/williamnharveybackend"] = Package{
 		Name: "williamnharveybackend",
 		Types: map[string]r.Type{
 			"InteractableBackend":	r.TypeOf((*InteractableBackend)(nil)).Elem(),

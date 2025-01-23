@@ -19,7 +19,7 @@ package closure_values
 import (
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base"
+	"github.com/WilliamNHarvey/gomacro/base"
 )
 
 type Env struct {

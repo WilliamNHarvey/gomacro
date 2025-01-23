@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos72/gomacro/go/etoken"
+	"github.com/WilliamNHarvey/gomacro/go/etoken"
 
-	"github.com/cosmos72/gomacro/go/types"
-	"github.com/cosmos72/gomacro/go/typeutil"
+	"github.com/WilliamNHarvey/gomacro/go/types"
+	"github.com/WilliamNHarvey/gomacro/go/typeutil"
 )
 
 var u = NewUniverse()

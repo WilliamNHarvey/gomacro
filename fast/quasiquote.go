@@ -22,13 +22,13 @@ import (
 	"go/token"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/reflect"
-	etoken "github.com/cosmos72/gomacro/go/etoken"
-	mp "github.com/cosmos72/gomacro/go/parser"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/WilliamNHarvey/gomacro/ast2"
+	"github.com/WilliamNHarvey/gomacro/base"
+	"github.com/WilliamNHarvey/gomacro/base/output"
+	"github.com/WilliamNHarvey/gomacro/base/reflect"
+	etoken "github.com/WilliamNHarvey/gomacro/go/etoken"
+	mp "github.com/WilliamNHarvey/gomacro/go/parser"
+	xr "github.com/WilliamNHarvey/gomacro/xreflect"
 )
 
 var (

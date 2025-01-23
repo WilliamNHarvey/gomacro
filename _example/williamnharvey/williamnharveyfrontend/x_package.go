@@ -11,14 +11,14 @@ import (
 
 /**
  * Declare and fill a global variable Packages, whose type is compatible
- * with the global variable github.com/cosmos72/gomacro/imports.Packages
+ * with the global variable github.com/WilliamNHarvey/gomacro/imports.Packages
  *
  * If you want to automatically register this package's declarations into
- *   github.com/cosmos72/gomacro/imports.Packages
+ *   github.com/WilliamNHarvey/gomacro/imports.Packages
  * to let gomacro know about this package, and allow importing it without compiling
  * a plugin, you can add the following to some _other_ file in this directory:
  *
- * import "github.com/cosmos72/gomacro/imports"
+ * import "github.com/WilliamNHarvey/gomacro/imports"
  *
  * func init() {
  *     for k, v := range Packages {
@@ -41,9 +41,9 @@ type Package = struct {
 
 var Packages = make(map[string]Package)
 
-// reflection: allow interpreted code to import "github.com/cosmos72/gomacro/_example/williamnharvey/williamnharveyfrontend"
+// reflection: allow interpreted code to import "github.com/WilliamNHarvey/gomacro/_example/williamnharvey/williamnharveyfrontend"
 func init() {
-	Packages["github.com/cosmos72/gomacro/_example/williamnharvey/williamnharveyfrontend"] = Package{
+	Packages["github.com/WilliamNHarvey/gomacro/_example/williamnharvey/williamnharveyfrontend"] = Package{
 		Name: "williamnharveyfrontend",
 		Binds: map[string]r.Value{
 			"DoSomethingWithInterfaceStruct":	r.ValueOf(DoSomethingWithInterfaceStruct),
@@ -60,7 +60,7 @@ func init() {
 	}
 }
 
-// --------------- proxy for github.com/cosmos72/gomacro/_example/williamnharvey/williamnharveyfrontend.Backend ---------------
+// --------------- proxy for github.com/WilliamNHarvey/gomacro/_example/williamnharvey/williamnharveyfrontend.Backend ---------------
 type P__Users_williamnharvey_workspace_gomacro__example_williamnharvey_williamnharveyfrontend_Backend struct {
 	Object	interface{}
 	DoSomethingWithInterfaceStruct_	func(interface{}, context.Context, *InterfaceStruct) (*InterfaceStruct, error)

@@ -20,9 +20,9 @@ import (
 	"go/ast"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	. "github.com/cosmos72/gomacro/base"
-	etoken "github.com/cosmos72/gomacro/go/etoken"
+	. "github.com/WilliamNHarvey/gomacro/ast2"
+	. "github.com/WilliamNHarvey/gomacro/base"
+	etoken "github.com/WilliamNHarvey/gomacro/go/etoken"
 )
 
 type macroExpandCtx struct {

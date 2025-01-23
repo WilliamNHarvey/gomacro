@@ -26,8 +26,8 @@ import (
 	r "reflect"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/base/output"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/WilliamNHarvey/gomacro/base/output"
+	xr "github.com/WilliamNHarvey/gomacro/xreflect"
 )
 
 func (c *Comp) AddressOf(node *ast.UnaryExpr) *Expr { return c.addressOf(node.X, nil) }

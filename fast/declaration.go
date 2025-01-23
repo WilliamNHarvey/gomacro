@@ -21,12 +21,12 @@ import (
 	"go/token"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base/reflect"
+	"github.com/WilliamNHarvey/gomacro/base/reflect"
 
-	"github.com/cosmos72/gomacro/base/strings"
+	"github.com/WilliamNHarvey/gomacro/base/strings"
 
-	"github.com/cosmos72/gomacro/base"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/WilliamNHarvey/gomacro/base"
+	xr "github.com/WilliamNHarvey/gomacro/xreflect"
 )
 
 // Decl compiles a constant, variable, function or type declaration - or an import

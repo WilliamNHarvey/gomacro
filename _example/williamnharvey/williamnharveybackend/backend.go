@@ -3,7 +3,7 @@ package williamnharveybackend
 import (
 	"context"
 
-	"github.com/cosmos72/gomacro/_example/williamnharvey/williamnharveyfrontend"
+	"github.com/WilliamNHarvey/gomacro/_example/williamnharvey/williamnharveyfrontend"
 )
 
 type InteractableBackend struct{}

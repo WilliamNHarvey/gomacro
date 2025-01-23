@@ -18,7 +18,7 @@ package xreflect
 import (
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/go/types"
+	"github.com/WilliamNHarvey/gomacro/go/types"
 )
 
 type z struct{}

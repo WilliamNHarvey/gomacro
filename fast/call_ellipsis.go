@@ -17,7 +17,7 @@
 package fast
 
 import (
-	xr "github.com/cosmos72/gomacro/xreflect"
+	xr "github.com/WilliamNHarvey/gomacro/xreflect"
 )
 
 // call a variadic function, when arguments CONTAIN '...'

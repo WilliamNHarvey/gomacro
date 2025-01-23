@@ -27,10 +27,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/cosmos72/gomacro/base/output"
-	p "github.com/cosmos72/gomacro/base/paths"
-	"github.com/cosmos72/gomacro/base/reflect"
-	"github.com/cosmos72/gomacro/imports"
+	"github.com/WilliamNHarvey/gomacro/base/output"
+	p "github.com/WilliamNHarvey/gomacro/base/paths"
+	"github.com/WilliamNHarvey/gomacro/base/reflect"
+	"github.com/WilliamNHarvey/gomacro/imports"
 )
 
 type Importer struct {

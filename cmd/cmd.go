@@ -24,13 +24,13 @@ import (
 	"os"
 	"strings"
 
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/genimport"
-	"github.com/cosmos72/gomacro/base/inspect"
-	"github.com/cosmos72/gomacro/base/paths"
-	"github.com/cosmos72/gomacro/fast"
-	"github.com/cosmos72/gomacro/fast/debug"
-	"github.com/cosmos72/gomacro/go/etoken"
+	. "github.com/WilliamNHarvey/gomacro/base"
+	"github.com/WilliamNHarvey/gomacro/base/genimport"
+	"github.com/WilliamNHarvey/gomacro/base/inspect"
+	"github.com/WilliamNHarvey/gomacro/base/paths"
+	"github.com/WilliamNHarvey/gomacro/fast"
+	"github.com/WilliamNHarvey/gomacro/fast/debug"
+	"github.com/WilliamNHarvey/gomacro/go/etoken"
 )
 
 type Cmd struct {

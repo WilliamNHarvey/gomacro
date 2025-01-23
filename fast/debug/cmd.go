@@ -19,8 +19,8 @@ package debug
 import (
 	"strings"
 
-	"github.com/cosmos72/gomacro/base"
-	bstrings "github.com/cosmos72/gomacro/base/strings"
+	"github.com/WilliamNHarvey/gomacro/base"
+	bstrings "github.com/WilliamNHarvey/gomacro/base/strings"
 )
 
 type Cmd struct {

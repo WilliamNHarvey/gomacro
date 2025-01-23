@@ -27,8 +27,8 @@ import (
 	r "reflect"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/base/reflect"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/WilliamNHarvey/gomacro/base/reflect"
+	xr "github.com/WilliamNHarvey/gomacro/xreflect"
 )
 
 func (c *Comp) varAddConst(va *Var, val I) Stmt {

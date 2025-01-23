@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cosmos72/gomacro/base/reflect"
+	"github.com/WilliamNHarvey/gomacro/base/reflect"
 
-	"github.com/cosmos72/gomacro/base"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/WilliamNHarvey/gomacro/base"
+	xr "github.com/WilliamNHarvey/gomacro/xreflect"
 )
 
 type Inspector struct {

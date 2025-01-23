@@ -16,7 +16,7 @@ The author has experience using generics in the three languages listed above,
 which will also be used for comparison and reference in the rest of this document.
 
 In addition, the author personally added generics to three programming languages:
-* Go: the unofficial interpreter [gomacro](https://github.com/cosmos72/gomacro)
+* Go: the unofficial interpreter [gomacro](https://github.com/WilliamNHarvey/gomacro)
   contains a Go implementation of generics, modeled after C++ templates.
 * Common Lisp: the library [cl-parametric-types](https://github.com/cosmos72/cl-parametric-types)
   contains a Common Lisp implementation of generics, again modeled after C++ templates.

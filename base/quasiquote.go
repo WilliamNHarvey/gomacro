@@ -20,9 +20,9 @@ import (
 	"go/ast"
 	"go/token"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	etoken "github.com/cosmos72/gomacro/go/etoken"
-	mp "github.com/cosmos72/gomacro/go/parser"
+	. "github.com/WilliamNHarvey/gomacro/ast2"
+	etoken "github.com/WilliamNHarvey/gomacro/go/etoken"
+	mp "github.com/WilliamNHarvey/gomacro/go/parser"
 )
 
 // SimplifyNodeForQuote unwraps ast.BlockStmt, ast.ExprStmt, ast.ParenExpr and ast.DeclStmt

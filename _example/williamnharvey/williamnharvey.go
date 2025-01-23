@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cosmos72/gomacro/_example/williamnharvey/williamnharveybackend"
-	"github.com/cosmos72/gomacro/_example/williamnharvey/williamnharveyfrontend"
+	"github.com/WilliamNHarvey/gomacro/_example/williamnharvey/williamnharveybackend"
+	"github.com/WilliamNHarvey/gomacro/_example/williamnharvey/williamnharveyfrontend"
 )
 
 func main() {

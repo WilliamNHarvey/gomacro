@@ -24,9 +24,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/untyped"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/WilliamNHarvey/gomacro/base"
+	"github.com/WilliamNHarvey/gomacro/base/untyped"
+	xr "github.com/WilliamNHarvey/gomacro/xreflect"
 )
 
 type caseEntry struct {

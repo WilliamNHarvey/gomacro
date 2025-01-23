@@ -20,8 +20,8 @@ import (
 	r "reflect"
 	"sync"
 
-	"github.com/cosmos72/gomacro/go/types"
-	"github.com/cosmos72/gomacro/go/typeutil"
+	"github.com/WilliamNHarvey/gomacro/go/types"
+	"github.com/WilliamNHarvey/gomacro/go/typeutil"
 )
 
 type Types struct {

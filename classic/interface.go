@@ -20,7 +20,7 @@ import (
 	"go/ast"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/base"
+	. "github.com/WilliamNHarvey/gomacro/base"
 )
 
 func (env *Env) evalTypeInterface(node *ast.InterfaceType) r.Type {
